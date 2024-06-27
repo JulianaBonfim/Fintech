@@ -1,0 +1,136 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.container-md {
+    background-color: #CCFF33;
+    border-radius: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 50% auto;
+}
+
+.container1-md {
+    border: 2px solid #964b00;
+}
+
+.custom-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(60, 60, 60, 0.2);
+}
+
+.custom-button:hover {
+    background-color: #FFFFFF;
+    /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    /* Sombra ao passar o mouse */
+}
+
+.line-below {
+    display: inline-block;
+    border-bottom: 2px solid #964b00;
+    align-items: center;
+}
+
+.button-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    /* Distribui os itens igualmente ao longo do container */
+    margin-top: 20px;
+}
+
+.button-list li {
+    text-align: center;
+}
+
+.button-list li .custom-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    color: #000000;
+    border: #000000;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    width: 120px;
+
+}
+
+.button-list li .custom-button .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.button-list li .custom-button .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.rodape {
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.last_button {
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    border: none;
+}
+
+
+th {
+    text-align: left;
+    color: #000000;
+    border: none;
+    
+}
+
+tr td:first-child {
+    border-top-left-radius: 10px;
+}
+
+tr td:last-child {
+    border-top-right-radius: 10px;
+}
+
+tr td {
+    text-align: left;
+    background-color: #CCFF33;
+}
+
